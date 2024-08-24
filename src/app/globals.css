@@ -2,32 +2,116 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'CabinetGrotesk-Medium', sans-serif;
+  color: #054738;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+
+h1, h2, h3{
+  color: #054738;
+}
+
+
+
+.container-1{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  /* max-width: 1023px; */
+}
+
+::-webkit-scrollbar{
+  display: none;
+ }
+
+
+ 
+ html{
+  scroll-behavior: smooth;
+ }
+ 
+ h1,h2,h3{
+  color: #000;
+  font-weight: 400;
+ }
+ 
+ ul{
+  list-style: none;
+ }
+ 
+ a{
+  text-decoration: none;
+ }
+ 
+ img{
+  max-width: 100%;
+  height: auto;
+ }
+ 
+ input, button{
+    outline: none;
+    border: none;
+ }
+ 
+ img{
+    max-width: 100%;
+ }
+
+ .btn{
+  border: 1px solid #054738;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+ }
+
+ .input-border{
+  border-bottom: 1px solid #054738;
+  width: 100%;
+ }
+
+ .input-border::placeholder{
+     color: #054738;
+     padding-bottom: 2rem;
+ }
+
+ .section{
+  padding: 5rem .2rem;
+}
+
+@font-face {
+  font-family: 'CabinetGrotesk-Medium';
+  src: url('../../fonts/CabinetGrotesk-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+.home{
+  background-image: url('../../public/house-3.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.about{
+  background-image: url('../../public/hres-1.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+@media screen and (min-width: 1024px) {
+  .container-1{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    /* max-width: 1023px; */
   }
 }
+
+
+
+
+
+
+
