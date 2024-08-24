@@ -1,5 +1,5 @@
 import Image from "next/image";
-import NavWhite from "../components/navbar/Navwhite";
+import NavWhite from "../components/navbar/NavWhite";
 import Link from "next/link";
 
 export default function AboutPage () {
