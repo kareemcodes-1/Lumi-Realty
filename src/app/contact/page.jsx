@@ -5,7 +5,7 @@ export default function ContactPage () {
      return (
           <>
           <Nav />
-          <section className="lg:mt-[8rem] mt-[5rem]">
+          <section className="lg:mt-[8rem] mt-[7rem]">
               <div className="container-1 lg:grid grid-cols-2 gap-[3rem]">
                    <div>
                          <h2 className="lg:text-[4rem] text-[3rem] text-[#054738]">Let’s talk about working together.</h2>
