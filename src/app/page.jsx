@@ -5,16 +5,15 @@ import Listings from "./components/listings/Listings";
 import NavWhite from "./components/navbar/NavWhite";
 import Quote from "./components/quote/Quote";
 
-
 export default function Home() {
   return (
     <div>
-        <NavWhite />
-       <HomePage />
-       <About />
-        <Quote />
-        <Listings />
-        <HomeSold />
+      <NavWhite />
+      <HomePage />
+      <About />
+      <Quote />
+      <Listings />
+      <HomeSold />
     </div>
   );
 }
