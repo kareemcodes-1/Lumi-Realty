@@ -2,7 +2,7 @@ import "./globals.css";
 import Footer from "./components/footer/Footer";
 
 export const metadata = {
-  title: "Lumi Realty",
+  title: "Carl Homes",
   description: "Real estate website",
 };
 

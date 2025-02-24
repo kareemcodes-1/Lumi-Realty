@@ -55,7 +55,7 @@ export default function ServicePage() {
 
           <div className="my-[1rem]">
             <Image
-              src="/about-firm-2.jpg"
+              src="/why-us.webp"
               alt=""
               width={500}
               height={500}
@@ -92,10 +92,10 @@ export default function ServicePage() {
 
         <div>
           <Image
-            src="/4.jpeg"
+            src="/about.jpg"
             alt=""
-            width={1000}
-            height={1000}
+            width={500}
+            height={500}
             quality={100}
             className="w-full lg:h-[600px] h-[300px] object-cover"
           />

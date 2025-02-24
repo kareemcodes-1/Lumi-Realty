@@ -9,7 +9,7 @@ export default function AboutPage() {
       <section className="about section">
         <div className="mt-[10rem] mx-[1.5rem]">
           <div className="flex items-end justify-end flex-col-reverse gap-[1.5rem]">
-            <h2 className="lg:text-[5rem] text-[3.5rem] text-start text-white flex items-center lg:ml-[3rem] ml-0 justify-center">
+            <h2 className="lg:text-[5rem] text-[3rem] text-start text-white flex items-center lg:ml-[3rem] ml-0 justify-center">
               Experience that you need with an agency you can trust.
             </h2>
 
@@ -39,7 +39,7 @@ export default function AboutPage() {
           </div>
 
           <div>
-            <h2 className="lg:text-[4rem] text-[3rem] text-[#054738]">
+            <h2 className="lg:text-[3.5rem] text-[3rem] text-[#054738]">
               Vancouver based Realtor.
             </h2>
           </div>
@@ -49,7 +49,7 @@ export default function AboutPage() {
       <div className="container-1">
         <div className="lg:grid lg:grid-cols-2 flex flex-col mt-[3rem] gap-[2rem]">
           <div>
-            <h2 className="lg:text-[5rem] text-[3rem] text-[#054738]">
+            <h2 className="lg:text-[4rem] text-[3rem] text-[#054738]">
               Why I do what I do
             </h2>
 
@@ -63,7 +63,7 @@ export default function AboutPage() {
 
           <div>
             <Image
-              src="/1.jpeg"
+              src="/about.jpeg"
               alt=""
               width={500}
               height={500}
@@ -158,7 +158,7 @@ export default function AboutPage() {
 
           <div className="flex lg:items-end gap-[2rem] lg:justify-end lg:ml-auto lg:flex-row flex-col">
             <div>
-              <h2 className="text-[5rem] text-[#054738]">$100</h2>
+              <h2 className="text-[5rem] text-[#054738]">$200</h2>
               <span>million in houses sold last year</span>
             </div>
 

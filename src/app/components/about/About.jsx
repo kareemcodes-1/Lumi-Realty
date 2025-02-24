@@ -42,7 +42,7 @@ export default function About() {
               </span>
               <div className="lg:flex items-center gap-[2rem]">
                 <div>
-                  <h1 className="text-[96px] text-[#054738]">$100</h1>
+                  <h1 className="text-[96px] text-[#054738]">$200</h1>
                   <span className="text-[1.2rem] text-[#054738]">
                     million in houses sold last year
                   </span>
@@ -61,7 +61,7 @@ export default function About() {
 
         <div className="mt-[4rem]">
           <Image
-            src="/blog-2.jpeg"
+            src="/about.jpg"
             alt=""
             width={1000}
             height={1000}

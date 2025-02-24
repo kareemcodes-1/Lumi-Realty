@@ -17,21 +17,21 @@ export default function ListingsPage() {
 
           <div className="listing-grid lg:grid lg:grid-cols-2 flex lg:flex-row flex-col lg:gap-[1rem] gap-[3rem] mt-[3rem]">
             {Listings.map((listing) => (
-                           <article key={listing.id} className="listing-box relative text-[#fff] lg:w-[600px] w-auto">
+                           <article key={listing.id} className="listing-box relative text-[#fff]  w-auto">
                            <Image
                              src={listing.img}
                              height={500}
                              width={500}
                              quality={100}
-                             className="w-full"
+                             className="w-full h-full"
                            />
                            <div className="lg:absolute bottom-[2rem] w-full mt-[2rem]">
-                             <div className="flex lg:items-center items-start lg:flex-row flex-col lg:justify-between justify-start lg:mx-[1.5rem] mx-0">
+                             <div className="flex lg:items-center items-start lg:flex-row flex-col lg:justify-between justify-start lg:px-[1.5rem] mx-0 w-full">
                                <div className="lg:text-[#fff] text-[#054738]">
                                  <h2 className="lg:text-[#fff] text-[#054738] text-[24px]">
-                                 {listing.price}
+                                 ${listing.price}
                                  </h2>
-                                 <h2 className="lg:text-[#fff] text-[#054738] text-[40px] break-words lg:w-[70%] w-auto">
+                                 <h2 className="lg:text-[#fff] text-[#054738] text-[40px] w-auto">
                                  {listing.location}
                                  </h2>
                                </div>

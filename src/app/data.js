@@ -34,5 +34,23 @@ export const Listings = [
         bedrooms: 6,
         bathrooms: 4,
         sqft: "4,996",
+    },
+    {
+        id: 5,
+        img: "/blog-1.jpeg",
+        price:  "6,499,000",
+        location: "19 Selford Way",
+        bedrooms: 6,
+        bathrooms: 4,
+        sqft: "4,996",
+    },
+    {
+        id: 6,
+        img: "/house.jpeg",
+        price:  "17,499,000",
+        location: "512 Hillside Court",
+        bedrooms: 6,
+        bathrooms: 4,
+        sqft: "4,996",
     }
 ]

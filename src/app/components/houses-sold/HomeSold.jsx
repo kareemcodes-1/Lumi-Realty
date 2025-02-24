@@ -5,7 +5,7 @@ export default function HomeSold() {
     <section className="homesold section">
       <div className="homesold-container container-1">
         <div className="homesold-content flex items-center lg:flex-row flex-col gap-[4rem]">
-          <div className="w-[300px] text-[#054738]">
+          <div className="lg:w-[300px] text-[#054738]">
             <p>
               {" "}
               We are passionate about helping our clients find their dream home
@@ -15,13 +15,13 @@ export default function HomeSold() {
             </p>
           </div>
 
-          <div className="w-[300px] text-[#054738]">
+          <div className="lg:w-[300px] text-[#054738]">
             <p>
               With over twenty years of experience selling luxury properties, we
               have developed a deep understanding of the luxury real estate
               market and the needs of high-end clientele.
             </p>
-            <div>About us</div>
+            <div className="btn flex items-center justify-center mt-[2rem]">About us</div>
           </div>
 
           <div className="">
@@ -36,7 +36,7 @@ export default function HomeSold() {
             <div>
               <div className="flex items-center justify-between border-b border-[#054738]">
                 <h1 className="lg:text-[7rem] text-[5rem] text-[#054738]">
-                  375+
+                  500+
                 </h1>
                 <span className="text-[#054738]">happy clients</span>
               </div>
@@ -45,7 +45,7 @@ export default function HomeSold() {
             <div>
               <div className="flex items-center justify-between">
                 <h1 className="lg:text-[7rem] text-[5rem] text-[#054738]">
-                  85+
+                  150+
                 </h1>
                 <span className="text-[#054738]">houses sold</span>
               </div>
@@ -56,7 +56,7 @@ export default function HomeSold() {
 
           <div className="lg:w-[50%] w-full">
             <Image
-              src="/about-firm-1.jpg"
+              src="/realtor.jpg"
               className="w-full h-[35rem] object-cover"
               width={1000}
               height={1000}

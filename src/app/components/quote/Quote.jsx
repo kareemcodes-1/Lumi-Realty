@@ -4,9 +4,9 @@ import React from "react";
 const Quote = () => {
   return (
     <section className="quote section">
-      <div className="quote-container container-1 flex items-center lg:flex-row flex-col gap-[2rem]">
+      <div className="quote-container container-1 flex lg:items-center items-start lg:flex-row flex-col gap-[2rem]">
         <div className="quote-content lg:text-[3rem] text-[2rem] lg:w-[70%] w-full text-[#054738]">
-          Tyler made the process of buying my dream home easy and stress-free.
+          Carl made the process of buying my dream home easy and stress-free.
           His professionalism and attention to detail are unparalleled.
         </div>
 

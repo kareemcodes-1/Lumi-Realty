@@ -1,3 +1,4 @@
+"use client";
 import Nav from "../components/navbar/Nav";
 
 export default function ContactPage() {
@@ -13,7 +14,7 @@ export default function ContactPage() {
 
             <div className="lg:grid grid-cols-2 mt-[2rem]">
               <div>
-                <span className="mb-[1.5rem]">contact@lumirealty.com</span>
+                <span className="mb-[1.5rem]">contact@carlhomes.com</span>
                 <p className="mt-[1.5rem]">123-456-7891</p>
               </div>
 
@@ -34,6 +35,7 @@ export default function ContactPage() {
           <form
             class="w-full max-w-[35rem] flex flex-col gap-[1.5rem] lg:mt-0 mt-[3rem]"
             id="form"
+            onSubmit={(e) => e.preventDefault()}
           >
             <div class="flex items-center border-b border-[#054738] py-2">
               <input
@@ -56,9 +58,9 @@ export default function ContactPage() {
             <div class="flex items-center border-b border-[#054738] py-2">
               <input
                 class="placeholder:text-[#054738] appearance-none bg-transparent border-none w-full mr-3 py-1 px-2 leading-tight focus:outline-none text-[2rem]"
-                type="text"
+                type="number"
                 placeholder="Your number?"
-                aria-label="Full name"
+                aria-label="Number"
               />
             </div>
 
@@ -67,7 +69,7 @@ export default function ContactPage() {
                 class="placeholder:text-[#054738] appearance-none bg-transparent border-none w-full mr-3 py-1 px-2 leading-tight focus:outline-none text-[2rem]"
                 type="text"
                 placeholder="Message?"
-                aria-label="Full name"
+                aria-label="Message"
               />
             </div>
 
