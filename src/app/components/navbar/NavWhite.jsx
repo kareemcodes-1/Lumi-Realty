@@ -36,7 +36,7 @@ export default function NavWhite() {
           <Link href="/">Carl Homes</Link>
         </div>
 
-        <div className="flex items-center gap-[1rem]">
+        <div className="lg:flex hidden items-center gap-[1rem]">
           <Link href="/listings">Listings</Link>
           <Link href="/services">Services</Link>
           <Link href="/about">About</Link>
@@ -45,17 +45,17 @@ export default function NavWhite() {
 
          {/* Mobile Menu Button */}
          <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden">
-          {isOpen ? <X size={30} className="text-white" /> : <Menu size={30} className="text-white" />}
+          {isOpen ? <X size={25} className="text-white" /> : <Menu size={25} className="text-white" />}
         </button>
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="absolute top-full left-0 w-full bg-[#054738] text-white shadow-md flex flex-col gap-4 p-6 lg:hidden">
-            <Link to={"/"} className="text-white" onClick={() => setIsOpen(false)}>Home</Link>
-            <Link to={"/about"} className="text-white" onClick={() => setIsOpen(false)}>About</Link>
-            <Link to={"/services"} className="text-white" onClick={() => setIsOpen(false)}>Services</Link>
-            <Link to={"/works"} className="text-white" onClick={() => setIsOpen(false)}>Our Works</Link>
-            <Link to={"/contact"} className="text-white" onClick={() => setIsOpen(false)}>Contact Us</Link>
+          <div className="absolute top-full left-0 w-full bg-[#fff] text-[#054738] shadow-md flex flex-col gap-4 p-6 lg:hidden">
+            <Link href="/" className="text-[#054738]" onClick={() => setIsOpen(false)}>Home</Link>
+            <Link href="/about" className="text-[#054738]" onClick={() => setIsOpen(false)}>About</Link>
+            <Link href="/services" className="text-[#054738]" onClick={() => setIsOpen(false)}>Services</Link>
+            <Link href="/works" className="text-[#054738]" onClick={() => setIsOpen(false)}>Our Works</Link>
+            <Link href="/contact" className="text-[#054738]" onClick={() => setIsOpen(false)}>Contact Us</Link>
           </div>
         )}
       </nav>

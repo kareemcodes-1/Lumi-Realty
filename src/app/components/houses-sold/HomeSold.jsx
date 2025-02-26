@@ -54,10 +54,10 @@ export default function HomeSold() {
             </div>
           </div>
 
-          <div className="lg:w-[50%] w-full">
+          <div className="lg:w-[50%] w-full mt-[2rem]">
             <Image
               src="/realtor.jpg"
-              className="w-full h-[35rem] object-cover"
+              className="w-full lg:h-[35rem] h-[20rem] object-cover object-top"
               width={1000}
               height={1000}
               quality={100}
